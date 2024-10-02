@@ -6,7 +6,7 @@ on:
 jobs:
   greet:
     name: Say hi to the user
-    runs on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: Run echo
       run: echo "Hello World!"
