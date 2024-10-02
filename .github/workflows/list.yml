@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repo
-        uses: actions/checkpoint@v4
+        uses: actions/checkout@v4
   
       - name: List files in the repo root
         run: ls -a
